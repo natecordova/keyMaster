@@ -16,6 +16,7 @@
         <meta name="robots" content="index,follow"> <!--etiqueta que sirve para que los bucadores puedan recorrer tu pagina web-->
         <link rel="stylesheet" type="text/css" href="../css/main.css">
         <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+<script id="hola">function hola(){window.alert("Bienvenidos!!!");} </script>
     </head>
     <body>
         <div class="container-fluid">
@@ -30,7 +31,7 @@
                                <input type="text" name="usuario" id="user" placeholder="Usuario o Email" /><br>
                                <input type="password" name="pass" id="pass" placeholder="Password" /><br>
                                <ul class="actions">
-                                   <li><a id="submitLog" class="button" > Log in  </a></li>
+                                   <li><a id="submitLog" class="button" onclick="hola()"> Log in  </a></li>
                                </ul>
                                <label>Crear una nueva cuenta   <a id="sign" href="signin.html" >Sign up</a></label>
                            </form>
