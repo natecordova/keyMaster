@@ -1125,6 +1125,7 @@ img {
   vertical-align: middle;
 }
 .img-responsive,
+.circular{border-radius:50% !important;}
 .thumbnail > img,
 .thumbnail a > img,
 .carousel-inner > .item > img,
@@ -6766,7 +6767,10 @@ button.close {
     0 2px 10px 0 rgba(0,0,0,0.12);
     margin-bottom:16px;
 }
-
+.texcen{
+text-align: center;
+color: #ffffff;
+}
 .letraAvatar{
     position:absolute;
     left:0;
