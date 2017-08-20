@@ -33,7 +33,7 @@
             <div class="centrado">
                 <a href="../index.html"><img class="img-thumbnail" alt="KeyMaster" src="../images/logo.jpg"></a>
             </div>
-            <aside>
+            <div>
                 <?php
                 include_once("PersonCollector.php");
                     if (isset($_SESSION['MiSession'])) {
@@ -67,7 +67,7 @@
                 <?php 
                     } 
                 ?>
-            </aside>
+            </div>
         </div>
     </body>
 </html>
