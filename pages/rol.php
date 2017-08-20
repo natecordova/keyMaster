@@ -6,7 +6,7 @@ class rol
     private $nombre;
     
      function __construct($idrol, $nombre) {
-       $this->iddemo = $idrol;
+       $this->idrol = $idrol;
        $this->nombre = $nombre;
      }
     
