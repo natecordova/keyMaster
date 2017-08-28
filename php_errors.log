@@ -7,3 +7,9 @@
 [28-Aug-2017 19:17:55 UTC] PHP Fatal error:  Class 'RolCollector' not found in /home/ubuntu/workspace/keyMaster28_08_2017/keyMaster/pages/rolAdmin.php on line 50
 [28-Aug-2017 19:17:55 UTC] PHP Stack trace:
 [28-Aug-2017 19:17:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/keyMaster28_08_2017/keyMaster/pages/rolAdmin.php:0
+[28-Aug-2017 23:49:48 UTC] PHP Fatal error:  Class 'UsuarioCollector' not found in /home/ubuntu/workspace/keyMaster28_08_2017/keyMaster/pages/usuarioAdmin.php on line 50
+[28-Aug-2017 23:49:48 UTC] PHP Stack trace:
+[28-Aug-2017 23:49:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/keyMaster28_08_2017/keyMaster/pages/usuarioAdmin.php:0
+[28-Aug-2017 23:52:43 UTC] PHP Fatal error:  Class 'UsuarioCollector' not found in /home/ubuntu/workspace/keyMaster28_08_2017/keyMaster/pages/usuarioAdmin.php on line 50
+[28-Aug-2017 23:52:43 UTC] PHP Stack trace:
+[28-Aug-2017 23:52:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/keyMaster28_08_2017/keyMaster/pages/usuarioAdmin.php:0
