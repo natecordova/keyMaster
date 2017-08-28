@@ -25,7 +25,7 @@ function showUsuarios() {
 
 	function updateUsuario($id, $nombreusuario,$contrasena) {
 	$insertRow = self::$db->updateRow
-	("Update public.demo SET nombreusuario = ? contrasena = ? WHERE idusuario = ?", array("{$nombreusuario}", $id,"{$contrasena}"));
+	("Update public.usuario SET nombreusuario = ? contrasena = ? WHERE idusuario = ?", array("{$nombreusuario}", $id,"{$contrasena}"));
 
 	}
 
