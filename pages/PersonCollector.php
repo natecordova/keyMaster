@@ -29,7 +29,12 @@ function UpdateDemo($id,$nombre) {
 
 function LogIn($nombre) {
     $rows = self::$db->getRows("SELECT * FROM persona where nombre= ? ", array ("{$nombre}"));        
-    
+     if ($rows[0]{'nombre'} == null){
+        echo "Clave incorrecta";
+    }else{
+        $_SESSION['sesion_iniciada'] = true;
+        $_SESSION['nombre'] = $nombre;
+    }
 }
 
 function deleteDemo($id) {
