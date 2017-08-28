@@ -1,0 +1,9 @@
+[28-Aug-2017 19:17:55 UTC] PHP Warning:  include_once(RolCollector.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/keyMaster28_08_2017/keyMaster/pages/rolAdmin.php on line 46
+[28-Aug-2017 19:17:55 UTC] PHP Stack trace:
+[28-Aug-2017 19:17:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/keyMaster28_08_2017/keyMaster/pages/rolAdmin.php:0
+[28-Aug-2017 19:17:55 UTC] PHP Warning:  include_once(): Failed opening 'RolCollector.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/keyMaster28_08_2017/keyMaster/pages/rolAdmin.php on line 46
+[28-Aug-2017 19:17:55 UTC] PHP Stack trace:
+[28-Aug-2017 19:17:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/keyMaster28_08_2017/keyMaster/pages/rolAdmin.php:0
+[28-Aug-2017 19:17:55 UTC] PHP Fatal error:  Class 'RolCollector' not found in /home/ubuntu/workspace/keyMaster28_08_2017/keyMaster/pages/rolAdmin.php on line 50
+[28-Aug-2017 19:17:55 UTC] PHP Stack trace:
+[28-Aug-2017 19:17:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/keyMaster28_08_2017/keyMaster/pages/rolAdmin.php:0

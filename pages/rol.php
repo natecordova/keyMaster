@@ -14,7 +14,7 @@ class rol
        $this->idrol = $idrol;
      } 
      function getIdRol(){
-       return $this->idRol;
+       return $this->idrol;
      } 
      function setNombre($nombre){
        $this->nombre = $nombre;
