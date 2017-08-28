@@ -21,14 +21,28 @@ session_start();
 </section>
 <section id="main">
 <?php
+
+echo "se ha destruido session exitosamente<br/>";
+
+echo "<a href='../index.html'>Volver</a>";
+
+/*Con session*/
+/*
 if (isset($_SESSION['MiSession'])) {
 session_destroy();
 echo "se ha destruido session exitosamente<br/>";
-echo "<a href='index.php'>Volver</a>";
+echo "<a href='../index.html'>Volver</a>";
 }else{
 echo "ERROR... <br/>";
-echo "<a href='index.php'>Volver</a>";
+echo "<a href='../index.html'>Volver</a>";
 }
+*/
+	
+
+
+
+
+
 
 ?>
 </section>
