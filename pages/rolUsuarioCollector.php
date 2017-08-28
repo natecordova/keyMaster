@@ -16,5 +16,22 @@ class rolUsuarioCollector extends Collector
     }
     return $arrayRolUsuarios;        
   }
+  function showRolUsuario($id) {
+	$row = self::$db->getRows("SELECT * FROM rolUsuario where idrolusuario= ?", array("{$id}"));
+	$ObjRolUsuario = new Usuario($row[0]{'idrolusuario'},$row[0]{'detalle'});
+	return $ObjRolUsuario;
+	}
+
+	function updateRolUsuario($id, $detalle) {
+	$insertRow = self::$db->updateRow
+	("Update public.rolUsuario SET detalle = ? WHERE idrolusuario = ?", array("{$detalle}", $id));
+
+	}
+
+	function insertRolUsuario($detalle) {
+	$insertRow = self::$db->insertRow ("Insert INTO public.rolUsuario (detalle) VALUES (?)", array("{$detalle}"));
+
+	}
+  
  }
 ?>
