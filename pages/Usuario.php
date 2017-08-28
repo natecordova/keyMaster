@@ -2,35 +2,38 @@
 
 class Usuario
 {
-    private $idusuario;
-    private $nombreusuario;
-     private $contrasena;
-
-     function __construct($idusuario, $nombreusuario, $contrasena) {
-       $this->idcurso = $idusuario;
-       $this->detalle = $nombreusuario;
-	     $this->detalle = $contrasena;
+    private $id_usuario;
+    private $nombre;
+    private $contrasena;
+    
+    
+     function __construct($id_usuario, $nombre, $contrasena) {
+       $this->id_usuario = $id_usuario;
+       $this->nombre = $nombre;
+        $this->contrasena = $contrasena;
      }
     
-     function setIdUsuario($idusuario){
-       $this->idcurso = $idusuario;
+     function setIdUsuario($id_usuario){
+       $this->id_usuario = $id_usuario;
      } 
      function getIdUsuario(){
-       return $this->idusuario;
+       return $this->id_usuario;
      } 
-     function setNombreUsuario($nombreusuario){
-       $this->nombreusuario = $nombreusuario;
+     function setNombre($nombre){
+       $this->nombre = $nombre;
      } 
-     function getNombreUsuario(){
-       return $this->nombreusuario;
+     function getNombre(){
+       return $this->nombre;
      } 
-
-	function setContrasena($contrasena){
+     function setContrasena($contrasena){
        $this->contrasena = $contrasena;
      } 
      function getContrasena(){
        return $this->contrasena;
      } 
+     
+     
+     
 }
 
 ?> 

@@ -1,39 +1,39 @@
 <?php
 
-include_once('Usuario.php');
-include_once('Collector.php');
-
-class UsuarioCollector extends Collector
+class Usuario
 {
-
-function showUsuarios() {
-	$rows = self::$db->getRows("SELECT * FROM usuario ");
-	echo "Usuarios Registrados";
-	$arrayUsuarios= array();
-	foreach ($rows as $c){
-
-	$aux = new Usuario($c{'idusuario'},$c{'nombreusuario'},$c{'contrasena'});
-	array_push($arrayUsuarios, $aux);
-	}
-	return $arrayUsuarios;
+    private $id_usuario;
+    private $nombre;
+    private $contrasena;
+    
+    
+     function __construct($id_usuario, $nombre, $contrasena) {
+       $this->id_usuario = $id_usuario;
+       $this->nombre = $nombre;
+        $this->contrasena = $contrasena;
      }
-	function showUsuario($id) {
-	$row = self::$db->getRows("SELECT * FROM usuario where idusuario= ?", array("{$id}"));
-	$ObjUsuario = new Usuario($row[0]{'idusuario'},$row[0]{'nombreusuario'},$row[0]{'contrasena'});
-	return $ObjUsuario;
-	}
+    
+     function setIdUsuario($id_usuario){
+       $this->id_usuario = $id_usuario;
+     } 
+     function getIdUsuario(){
+       return $this->id_usuario;
+     } 
+     function setNombre($nombre){
+       $this->nombre = $nombre;
+     } 
+     function getNombre(){
+       return $this->nombre;
+     } 
+     function setContrasena($contrasena){
+       $this->contrasena = $contrasena;
+     } 
+     function getContrasena(){
+       return $this->contrasena;
+     } 
+     
+     
+     
+}
 
-	function updateUsuario($id, $nombreusuario,$contrasena) {
-	$insertRow = self::$db->updateRow
-	("Update public.usuario SET nombreusuario = ? contrasena = ? WHERE idusuario = ?", array("{$nombreusuario}", $id,"{$contrasena}"));
-
-	}
-
-	function insertUsuario($nombreusuario,$contrasena) {
-	$insertRow = self::$db->insertRow ("Insert INTO public.usuario (nombreusuario,contrasena) VALUES (?,?)", array("{$nombre}","{$contrasena}"));
-
-	}
-
- }
-
-?>
+?> 
