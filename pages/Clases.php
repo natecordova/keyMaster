@@ -3,14 +3,14 @@
 class Clases
 {
     private $id_clase;
-    private $profesor;
+    private $fk_id_profesor;
   
    
     
     
-     function __construct($id_horarios, $profesor) {
+     function __construct($id_horarios, $fk_id_profesor ) {
          $this->id_horarios = $id_horarios;
-         $this->profesor = $profesor;
+         $this->fk_id_profesor = $fk_id_profesor;
          
      }
     
@@ -20,11 +20,11 @@ class Clases
      function getIdClase(){
        return $this->id_clase;
      } 
-     function setProfesor($profesor){
-       $this->profesor = $profesor;
+     function setProfesor($fk_id_profesor){
+       $this->fk_id_profesor = $fk_id_profesor;
      } 
      function getProfesor(){
-       return $this->profesor;
+       return this->$fk_id_profesor;
      }
     
     
