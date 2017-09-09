@@ -13,3 +13,258 @@
 [28-Aug-2017 23:52:43 UTC] PHP Fatal error:  Class 'UsuarioCollector' not found in /home/ubuntu/workspace/keyMaster28_08_2017/keyMaster/pages/usuarioAdmin.php on line 50
 [28-Aug-2017 23:52:43 UTC] PHP Stack trace:
 [28-Aug-2017 23:52:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/keyMaster28_08_2017/keyMaster/pages/usuarioAdmin.php:0
+[09-Sep-2017 07:23:40 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(18): dataBase->getRows('SELECT * FROM a...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/formularioAlumnoEditar.php(25): AlumnoCollector->showDemo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 41
+[09-Sep-2017 07:24:26 UTC] PHP Fatal error:  Call to undefined method AlumnoCollector::createDemo() in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoGuardar.php on line 26
+[09-Sep-2017 07:24:26 UTC] PHP Stack trace:
+[09-Sep-2017 07:24:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoGuardar.php:0
+[09-Sep-2017 07:27:41 UTC] PHP Fatal error:  Call to undefined method AlumnoCollector::createDemo() in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoGuardar.php on line 26
+[09-Sep-2017 07:27:41 UTC] PHP Stack trace:
+[09-Sep-2017 07:27:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoGuardar.php:0
+[09-Sep-2017 07:31:37 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(37): dataBase->insertRow('INSERT INTO pub...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoGuardar.php(26): AlumnoCollector->createDemo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 49
+[09-Sep-2017 07:32:36 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(37): dataBase->insertRow('INSERT INTO pub...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoGuardar.php(26): AlumnoCollector->createDemo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 49
+[09-Sep-2017 07:34:45 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(37): dataBase->insertRow('INSERT INTO pub...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoGuardar.php(26): AlumnoCollector->createDemo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 49
+[09-Sep-2017 07:35:14 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(37): dataBase->insertRow('INSERT INTO pub...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoGuardar.php(26): AlumnoCollector->createDemo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 49
+[09-Sep-2017 07:40:38 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(18): dataBase->getRows('SELECT * FROM a...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/formularioAlumnoEditar.php(25): AlumnoCollector->showDemo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 41
+[09-Sep-2017 07:40:45 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php(56): dataBase->insertRow('DELETE FROM alu...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(31): dataBase->deleteRow('DELETE FROM alu...', Array)
+#2 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoEliminar.php(30): AlumnoCollector->deleteDemo(NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 49
+[09-Sep-2017 07:40:53 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(37): dataBase->insertRow('INSERT INTO pub...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoGuardar.php(26): AlumnoCollector->createDemo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 49
+[09-Sep-2017 07:52:11 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(37): dataBase->insertRow('INSERT INTO pub...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoGuardar.php(26): AlumnoCollector->createDemo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 49
+[09-Sep-2017 07:56:24 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(36): dataBase->insertRow('INSERT INTO pub...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoGuardar.php(26): AlumnoCollector->createDemo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 49
+[09-Sep-2017 07:56:43 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(20): dataBase->getRows('SELECT * FROM a...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/formularioAlumnoEditar.php(25): AlumnoCollector->showDemo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 41
+[09-Sep-2017 07:56:48 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php(56): dataBase->insertRow('DELETE FROM pub...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(30): dataBase->deleteRow('DELETE FROM pub...', Array)
+#2 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoEliminar.php(30): AlumnoCollector->deleteDemo(NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 49
+[09-Sep-2017 07:56:55 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(36): dataBase->insertRow('INSERT INTO pub...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoGuardar.php(26): AlumnoCollector->createDemo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 49
+[09-Sep-2017 07:57:05 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(36): dataBase->insertRow('INSERT INTO pub...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoGuardar.php(26): AlumnoCollector->createDemo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 49
+[09-Sep-2017 07:58:50 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(20): dataBase->getRows('SELECT * FROM a...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/formularioAlumnoEditar.php(25): AlumnoCollector->showDemo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 41
+[09-Sep-2017 07:59:35 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(20): dataBase->getRows('SELECT * FROM a...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/formularioAlumnoEditar.php(25): AlumnoCollector->showDemo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 41
+[09-Sep-2017 08:01:21 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(20): dataBase->getRows('SELECT * FROM a...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/formularioAlumnoEditar.php(25): AlumnoCollector->showDemo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 41
+[09-Sep-2017 08:19:53 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(20): dataBase->getRows('SELECT * FROM a...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/formularioAlumnoEditar.php(25): AlumnoCollector->showDemo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 41
+[09-Sep-2017 08:30:50 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(20): dataBase->getRows('SELECT * FROM a...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/formularioAlumnoEditar.php(25): AlumnoCollector->showDemo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 41
+[09-Sep-2017 08:31:03 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php(56): dataBase->insertRow('DELETE FROM pub...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(30): dataBase->deleteRow('DELETE FROM pub...', Array)
+#2 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoEliminar.php(30): AlumnoCollector->deleteDemo(NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 49
+[09-Sep-2017 08:31:08 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(20): dataBase->getRows('SELECT * FROM a...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/formularioAlumnoEditar.php(25): AlumnoCollector->showDemo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 41
+[09-Sep-2017 08:31:28 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(20): dataBase->getRows('SELECT * FROM a...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/formularioAlumnoEditar.php(25): AlumnoCollector->showDemo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 41
+[09-Sep-2017 08:36:17 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(20): dataBase->getRows('SELECT * FROM a...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/formularioAlumnoEditar.php(25): AlumnoCollector->showDemo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 41
+[09-Sep-2017 08:36:44 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(20): dataBase->getRows('SELECT * FROM a...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/formularioAlumnoEditar.php(25): AlumnoCollector->showDemo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 41
+[09-Sep-2017 08:37:28 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "h"' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(36): dataBase->insertRow('INSERT INTO pub...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoGuardar.php(26): AlumnoCollector->createDemo('h')
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 49
+[09-Sep-2017 08:37:37 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "pk_id_alumno"
+DETAIL:  Key (id_alumno)=(1) already exists.' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(36): dataBase->insertRow('INSERT INTO pub...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoGuardar.php(26): AlumnoCollector->createDemo('1')
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 49
+[09-Sep-2017 08:38:41 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(20): dataBase->getRows('SELECT * FROM a...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/formularioAlumnoEditar.php(25): AlumnoCollector->showDemo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 41
+[09-Sep-2017 08:38:47 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php(56): dataBase->insertRow('DELETE FROM pub...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(30): dataBase->deleteRow('DELETE FROM pub...', Array)
+#2 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoEliminar.php(30): AlumnoCollector->deleteDemo(NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 49
+[09-Sep-2017 08:38:54 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "pk_id_alumno"
+DETAIL:  Key (id_alumno)=(2) already exists.' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(36): dataBase->insertRow('INSERT INTO pub...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoGuardar.php(26): AlumnoCollector->createDemo('4')
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 49
+[09-Sep-2017 08:39:21 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "pk_id_alumno"
+DETAIL:  Key (id_alumno)=(3) already exists.' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(36): dataBase->insertRow('INSERT INTO pub...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoGuardar.php(26): AlumnoCollector->createDemo('5')
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 49
+[09-Sep-2017 08:41:39 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php(56): dataBase->insertRow('DELETE FROM pub...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(30): dataBase->deleteRow('DELETE FROM pub...', Array)
+#2 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoEliminar.php(30): AlumnoCollector->deleteDemo(NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 49
+[09-Sep-2017 08:44:36 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php(56): dataBase->insertRow('DELETE FROM pub...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(30): dataBase->deleteRow('DELETE FROM pub...', Array)
+#2 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoEliminar.php(30): AlumnoCollector->deleteDemo(NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 49
+[09-Sep-2017 08:49:43 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php(56): dataBase->insertRow('DELETE FROM pub...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(30): dataBase->deleteRow('DELETE FROM pub...', Array)
+#2 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoEliminar.php(30): AlumnoCollector->deleteDemo(NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 49
+[09-Sep-2017 08:49:48 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php(56): dataBase->insertRow('DELETE FROM pub...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(30): dataBase->deleteRow('DELETE FROM pub...', Array)
+#2 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoEliminar.php(30): AlumnoCollector->deleteDemo(NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 49
+[09-Sep-2017 08:49:53 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php(56): dataBase->insertRow('DELETE FROM pub...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(30): dataBase->deleteRow('DELETE FROM pub...', Array)
+#2 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoEliminar.php(30): AlumnoCollector->deleteDemo(NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 49
+[09-Sep-2017 08:49:58 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php(56): dataBase->insertRow('DELETE FROM pub...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(30): dataBase->deleteRow('DELETE FROM pub...', Array)
+#2 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoEliminar.php(30): AlumnoCollector->deleteDemo(NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 49
+[09-Sep-2017 08:50:02 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php(56): dataBase->insertRow('DELETE FROM pub...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(30): dataBase->deleteRow('DELETE FROM pub...', Array)
+#2 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoEliminar.php(30): AlumnoCollector->deleteDemo(NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 49
+[09-Sep-2017 08:50:06 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php(56): dataBase->insertRow('DELETE FROM pub...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(30): dataBase->deleteRow('DELETE FROM pub...', Array)
+#2 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/alumnoEliminar.php(30): AlumnoCollector->deleteDemo(NULL)
+#3 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 49
+[09-Sep-2017 08:50:10 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""' in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/AlumnoCollector.php(20): dataBase->getRows('SELECT * FROM a...', Array)
+#1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/formularioAlumnoEditar.php(25): AlumnoCollector->showDemo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 41
