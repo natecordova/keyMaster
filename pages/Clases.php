@@ -8,8 +8,8 @@ class Clases
    
     
     
-     function __construct($id_horarios, $fk_id_profesor ) {
-         $this->id_horarios = $id_horarios;
+     function __construct($id_clase, $fk_id_profesor ) {
+         $this->id_clase = $id_clase;
          $this->fk_id_profesor = $fk_id_profesor;
          
      }
