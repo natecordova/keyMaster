@@ -12,7 +12,6 @@ class ClaseCollector extends Collector
     $arrayDemo= array();        
     foreach ($rows as $c){
       $aux = new Clases($c{'id_clase'}, $c{'fk_id_profesor'});
-      print_r($aux);
       array_push($arrayDemo, $aux);
     }
     return $arrayDemo;        
