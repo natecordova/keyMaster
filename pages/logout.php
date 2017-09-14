@@ -10,7 +10,7 @@ echo 'Gracias por usar Keymaster <p><a href="admin.php">index</a></p>';
 
 
 function redireccionar(){window.location="../index.php";} 
-setTimeout ("redireccionar()", 2000);
+setTimeout ("redireccionar()", 1500);
 
 
 </script>
