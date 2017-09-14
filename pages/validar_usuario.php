@@ -32,9 +32,10 @@ if(trim($_POST["nombre"]) != "" && trim($_POST["contrasena"]) != "")
  $result = pg_query('SELECT contrasena, nombre FROM usuario WHERE nombre=\''.$nombre.'\'');
  if($row = pg_fetch_array($result)){
   if($row["contrasena"] == $contrasena){
-   $_SESSION["k_username"] = $row['nombre'];
-   echo 'Has sido logueado correctamente '.$_SESSION['k_username'].' <p>';
-   echo '<a href="index.php">Comenzar a Administrar</a></p>';
+   $_SESSION["MiSession"] = $row['nombre'];
+   
+   echo 'Has sido logueado correctamente '.$_SESSION['MiSession'].' <p>';
+   echo '<a href="admin.php">Comenzar a Administrar</a></p>';
   
    //Elimina el siguiente comentario si quieres que re-dirigir automáticamente a index.php
    /*Ingreso exitoso, ahora sera dirigido a la pagina principal.

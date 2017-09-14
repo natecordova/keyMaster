@@ -21,11 +21,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>                        
               </button>
-              <a class="navbar-brand" href="../index.php">Keymaster</a>
+              <a class="navbar-brand" href="admin.php">KeymasterAdmin</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href='salir.php'><span class="glyphicon glyphicon-user"></span> Salir</a></li>
+               <li><a href='logout.php'><span class="glyphicon glyphicon-user"></span> Salir</a></li>
               </ul>
             </div>
           </div>

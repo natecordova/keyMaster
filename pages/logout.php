@@ -2,8 +2,15 @@
 session_start();
 //Matamos la sesion
 session_destroy();
-echo 'Ha terminado la session <p><a href="index.php">index</a></p>';
+echo 'Gracias por usar Keymaster <p><a href="admin.php">index</a></p>';
 ?>
-<script LANGUAGE="javascript">
-location.href = "../index.php";
+<script type="text/javascript">
+
+// // location.href = "../index.php";
+
+
+function redireccionar(){window.location="../index.php";} 
+setTimeout ("redireccionar()", 2000);
+
+
 </script>

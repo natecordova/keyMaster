@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="es">
 	<head>
@@ -8,8 +11,8 @@
     <!-- <link href="../css/main.css" rel='stylesheet' type='text/css'  >   -->
     <link href="../css/admin.css" rel='stylesheet' type='text/css'  >
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css"> 
-    
-    
+   
+
 	</head>
 <body>
 
@@ -21,7 +24,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>                        
               </button>
-              <a class="navbar-brand" href="../index.php">Keymaster</a>
+              <a class="navbar-brand" href="admin.php">KeymasterAdmin</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav navbar-right">
@@ -50,7 +53,7 @@ $id =1;
 $DemoCollectorObj = new UsuarioCollector();
 
 
-echo "<h2 class='texcen'>Bienvenido Usuario Administrador:(".$_SESSION['MiSession']."nate) </h2>";
+echo "<h2 class='texcen'>Bienvenido Usuario Administrador:(".$_SESSION['MiSession'].") </h2>";
 
 /*
 foreach ($DemoCollectorObj->showDemos() as $c){

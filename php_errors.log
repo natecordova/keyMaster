@@ -268,3 +268,17 @@ Stack trace:
 #1 /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/formularioAlumnoEditar.php(25): AlumnoCollector->showDemo(NULL)
 #2 {main}
   thrown in /home/ubuntu/workspace/keymaster09_09_2017/keyMaster/pages/dataBase.php on line 41
+[14-Sep-2017 17:45:33 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/keymaster14_09_2017/keyMaster/pages/Clases.php on line 27
+[14-Sep-2017 17:45:33 UTC] PHP Stack trace:
+[14-Sep-2017 17:45:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/keymaster14_09_2017/keyMaster/pages/claseAdmin.php:0
+[14-Sep-2017 17:45:33 UTC] PHP   2. include_once() /home/ubuntu/workspace/keymaster14_09_2017/keyMaster/pages/claseAdmin.php:46
+[14-Sep-2017 17:47:59 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/keymaster14_09_2017/keyMaster/pages/admin.php on line 19
+[14-Sep-2017 18:03:53 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/keymaster14_09_2017/keyMaster/pages/admin.php on line 44
+[14-Sep-2017 18:04:10 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/keymaster14_09_2017/keyMaster/pages/admin.php on line 44
+[14-Sep-2017 18:05:07 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/keymaster14_09_2017/keyMaster/pages/admin.php on line 45
+[14-Sep-2017 18:05:34 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/keymaster14_09_2017/keyMaster/pages/admin.php on line 45
+[14-Sep-2017 18:09:26 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/keymaster14_09_2017/keyMaster/pages/admin.php on line 45
+[14-Sep-2017 18:18:16 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/keymaster14_09_2017/keyMaster/pages/Clases.php on line 27
+[14-Sep-2017 18:18:16 UTC] PHP Stack trace:
+[14-Sep-2017 18:18:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/keymaster14_09_2017/keyMaster/pages/claseAdmin.php:0
+[14-Sep-2017 18:18:16 UTC] PHP   2. include_once() /home/ubuntu/workspace/keymaster14_09_2017/keyMaster/pages/claseAdmin.php:46
