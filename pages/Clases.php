@@ -24,7 +24,7 @@ class Clases
        $this->fk_id_profesor = $fk_id_profesor;
      } 
      function getProfesor(){
-       return $this->$fk_id_profesor;
+       return $this->fk_id_profesor;
      }
     
     
