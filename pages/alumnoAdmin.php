@@ -36,7 +36,7 @@ session_start();
 
 <?php
 if (isset($_SESSION['MiSession'])) {
- echo '<b>'.$_SESSION['MiSession']."</b> ) Seleccione una tabla </h2>";
+ echo '<b>'.$_SESSION['MiSession']."</b> </h2>";
 ?>
 
 
