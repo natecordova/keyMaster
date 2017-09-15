@@ -46,7 +46,7 @@ Profesor:	<input name="profesor" id="profesor" type="text" value="<?php echo $Ob
 
 
 
-<a href="usuarioAdmin.php">Cancelar</a>
+<a href="claseAdmin.php">Cancelar</a>
 
 <input type="submit" id="submit_save" class="main-button" value="Guardar"/>
                                                           

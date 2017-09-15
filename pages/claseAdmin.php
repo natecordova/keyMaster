@@ -4,7 +4,7 @@
 		<meta charset ="utf-8">
 		<title> Formulario Administrador</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesCarpeta sin títuloheet' type='text/css'>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
     <!-- <link href="../css/main.css" rel='stylesheet' type='text/css'  >   -->
     <link href="../css/admin.css" rel='stylesheet' type='text/css'  >
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css"> 
