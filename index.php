@@ -36,8 +36,8 @@
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav">
                 <li><a href="pages/niveles.html">Niveles</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Perfil</a></li>
+                
+                <li><a href="pages/perfil.html">Perfil</a></li>
                 <li><a href="pages/contacto.html">Contactenos</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
