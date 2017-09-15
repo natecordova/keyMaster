@@ -9,7 +9,7 @@ class ProfesorCollector extends Collector
     
     $arrayDemo= array();        
     foreach ($rows as $c){
-      $aux = new Demo($c{'id_profesor'},$c{'id_usuario_fk'});
+      $aux = new Profesor ($c{'id_profesor'},$c{'id_usuario_fk'});
       array_push($arrayDemo, $aux);
     }
     return $arrayDemo;        
