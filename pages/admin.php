@@ -58,17 +58,41 @@ if (isset($_SESSION['MiSession'])) {
    ?>
 
 
-<select class="selectpicker" name="Tablas" onchange="location = this.value"> 
-<option disabled="disabled" selected>Selecciona una opcion</option> 
-
-<option value="usuarioAdmin.php">Usuarios</option>  
-<option value="rolAdmin.php">Roles</option>  
-<option value="tipo_cancelacionAdmin.php">Tipo de cancelacion</option>  
-<option value="nivelAdmin.php">Niveles</option>
-<option value="horarioAdmin.php">Horarios</option>  
-<option value="claseAdmin.php">Clases</option>  
-<option value="alumnoAdmin.php">Alumnos</option>  
-
+ <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="panel panel-default panel-table">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col col-xs-6">
+                                    <h3 class="panel-title">Listado</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <table class="table table-striped table-bordered table-list">
+                                <thead>
+                                    <tr>
+                                        <th>Administrar</th>
+                                    </tr> 
+                                </thead>
+                                <tbody>
+                                    <tr><td><a href="alumnoAdmin.php">Alumno</a></td></tr>
+                                    <tr><td><a href="claseAdmin.php">Clase</a></td></tr>
+                                    <tr><td><a href="cursoAdmin.php">Curso</a></td></tr>
+                                    <tr><td><a href="cursoAlumnoAdmin.php">Curso Alumnos</a></td></tr>
+                                    <tr><td><a href="horarioAdmin.php">Horario</a></td></tr>
+                                    <tr><td><a href="nivelAdmin.php">Nivel</a></td></tr>
+                                    <tr><td><a href="PersonaAdmin.php">Persona</a></td></tr>
+                                    <tr><td><a href="profesorAdmin.php">Profesor</a></td></tr>
+                                    <tr><td><a href="rolAdmin.php">Rol</a></td></tr>
+                                    <tr><td><a href="rolUsuarioAdmin.php">Roles por Usuarios</a></td></tr>
+                                    <tr><td><a href="tipo_cancelacionAdmin.php">Cancelación</a></td></tr>
+                                    <tr><td><a href="usuarioAdmin.php">Usuario</a></td></tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
      
 
    <?php
