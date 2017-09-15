@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="es">
 	<head>
@@ -34,10 +37,6 @@
 
 
 <?php
-
-
-
-
 if (isset($_SESSION['MiSession'])) {
  echo '<b>'.$_SESSION['MiSession']."</b> </h2>";
 
@@ -59,20 +58,6 @@ $DemoCollectorObj = new AlumnoCollector();
 
 
 echo "<h2 class='texcen'>Bienvenido Alumno Administrador:(nate) </h2>";
-
-/*
-foreach ($DemoCollectorObj->showDemos() as $c){
-  echo "<div>";
-  echo $c->getIdDemo() . "  && " .$c->getNombre()."<a href='formularioDemoeditar.php?id=".$c->getIdDemo()."'>Editar</a> <a href='eliminar.php?id=".$c->getIdDemo()."'>Eliminar</a>";                                     
-  echo "</div>"; 
-
-  
-}
-
-*/
-
-
-
 ?>
 
 </div>
