@@ -35,7 +35,7 @@ if(trim($_POST["nombre"]) != "" && trim($_POST["contrasena"]) != "")
    $_SESSION["MiSession"] = $row['nombre'];
    
    echo 'Has sido logueado correctamente '.$_SESSION['MiSession'].' <p>';
-   echo '<a href="admin.php">Comenzar a Administrar</a></p>';
+   echo '<a href="vistaAdmin.php">Comenzar a Administrar</a></p>';
   
    //Elimina el siguiente comentario si quieres que re-dirigir automáticamente a index.php
    /*Ingreso exitoso, ahora sera dirigido a la pagina principal.
