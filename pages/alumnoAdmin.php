@@ -36,15 +36,6 @@ session_start();
 
 
 
-<?php
-if (isset($_SESSION['MiSession'])) {
- echo '<b>'.$_SESSION['MiSession']."</b> </h2>";
-
-   ?>
-
-
-
-
 
 <div>
 
@@ -175,18 +166,7 @@ echo "<h2 class='texcen'>Bienvenido Alumno Administrador:(nate) </h2>";
                             
                           </tr>
                           
-                          
-                          <?php
-   
-   
-   
-   
- 
-}else{
- echo '<p><a href="login.php">Login</a></p>';
- 
-}
-?>
+                        
 
                           
                    <?php   }   
