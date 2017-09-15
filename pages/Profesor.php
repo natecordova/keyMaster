@@ -1,13 +1,13 @@
 <?php
-class Profesor extends Persona
+class Profesor
 {
     private $id_profesor;
-  
+    private $id_usurario_fk;
     
     
-    function __construct($id_profesor) {  
-     parent::__construct($id_persona, $nombre, $apellido, $telefono, $genero, $mail);  
+    function __construct($id_profesor, $id_usurario_fk) {   
      $this->id_profesor = $id_profesor;  
+     $this->id_usurario_fk = $id_usurario_fk;
    }  
     
     
@@ -18,6 +18,13 @@ class Profesor extends Persona
      return $this->id_profesor = $id_profesor;  
    }  
     
+    public function getIdUsuario() {  
+        return $this->id_usurario_fk;  
+    }  
+    
+    public function setIdUsuario($id_usurario_fk){  
+        return $this->id_usurario_fk = $id_usurario_fk;  
+    }  
    
 }
 ?> 
