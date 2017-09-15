@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -27,6 +31,10 @@
                 </div>
             </div>
         </nav>
+	    <?php
+if (isset($_SESSION['MiSession'])) {
+ echo '<b>'.$_SESSION['MiSession']."</b> ) Seleccione una tabla </h2>";
+?>
         <div>
             <?php
             include_once("CursoCollector.php");
@@ -94,6 +102,12 @@
                                             runMyFunction();
                                         }
                                     ?>
+					<?php
+}else{
+ echo '<p><a href="login.php">Login</a></p>';
+ 
+}
+?> 
                                 </tbody>
                             </table>
                         </div>
