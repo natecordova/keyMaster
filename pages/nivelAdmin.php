@@ -33,6 +33,10 @@
 
 
 
+<?php
+if (isset($_SESSION['MiSession'])) {
+ echo '<b>'.$_SESSION['MiSession']."</b> ) Seleccione una tabla </h2>";
+?>
 
 
 
@@ -195,7 +199,13 @@ foreach ($DemoCollectorObj->showDemos() as $c){
                                 
                     ?>
                       
-                     
+                                  
+<?php
+}else{
+ echo '<p><a href="login.php">Login</a></p>';
+ 
+}
+?>          
                       
                           
                           
