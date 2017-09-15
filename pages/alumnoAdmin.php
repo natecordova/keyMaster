@@ -33,7 +33,15 @@
 
 
 
+<?php
 
+
+
+
+if (isset($_SESSION['MiSession'])) {
+ echo '<b>'.$_SESSION['MiSession']."</b> </h2>";
+
+   ?>
 
 
 
@@ -183,7 +191,18 @@ foreach ($DemoCollectorObj->showDemos() as $c){
                           </tr>
                           
                           
-                          
+                          <?php
+   
+   
+   
+   
+ 
+}else{
+ echo '<p><a href="login.php">Login</a></p>';
+ 
+}
+?>
+
                           
                    <?php   }   
                    /*Generar alert  */
