@@ -42,11 +42,9 @@
               </ul>
               <ul class="nav navbar-nav navbar-right">
                   <?php
-                    if (isset($_SESSION['sesion_iniciada'])) {
-                        echo "<script id='hola'>      function hola(){        window.alert('Bienvenidos!!!');
-            }
-        </script>";
-                         echo "<li><a href=''><span class='glyphicon glyphicon-log-in'></span> Logout</a></li>";
+                    if (isset($_SESSION['MiSession'])) {
+                       
+                         echo "<li><a href='pages/logout.php'><span class='glyphicon glyphicon-log-in'></span> Logout</a></li>";
                         }else{
                         echo "<li><a href='pages/signin.html'><span class='glyphicon glyphicon-user'></span> Sign Up</a></li>
                 <li><a href='pages/login.php'><span class='glyphicon glyphicon-log-in'></span> Login</a></li>";
