@@ -33,11 +33,9 @@
             </div>
           </div>
         </nav>
-
-
 <?php
 if (isset($_SESSION['MiSession'])) {
- echo '<b>'.$_SESSION['MiSession']."</b> ) Seleccione una tabla </h2>";
+ echo '<b>'.$_SESSION['MiSession']."</b> </h2>";
 ?>
 
 
@@ -199,11 +197,12 @@ foreach ($DemoCollectorObj->showDemos() as $c){
                     ?>
                       
                      <?php
+<?php
 }else{
  echo '<p><a href="login.php">Login</a></p>';
  
 }
-?> 
+?>
                       
                           
                           
