@@ -15,20 +15,25 @@ class ProfesorCollector extends Collector
     return $arrayDemo;        
   }
 function showDemo($id) {
-    $rows = self::$db->getRows("SELECT * FROM demo where iddemo= ? ", array ("{$id}"));        
-$ObjDemo= new Demo($rows[0]{'iddemo'},$rows[0]{'nombre'});
+    $rows = self::$db->getRows("SELECT * FROM profesor where id_profesor= ? ", array ("{$id}"));        
+$ObjDemo= new Profesor($rows[0]{'id_profesor'},$rows[0]{'id_usuario_fk'});
     
     return $ObjDemo;        
   }
-function UpdateDemo($id,$nombre) {
-    $insertrow = self::$db->updateRow("UPDATE demo SET nombre = ? where iddemo= ? ", array ("{$nombre}",$id));
-}
+function UpdateDemo($id,$usuario) {
+            $insertrow = self::$db->updateRow("UPDATE profesor SET id_usuario_fk = ? where id_profesor= ? ", array ($usuario,$id));
+        }
+  
 function LogIn($nombre) {
     $rows = self::$db->getRows("SELECT * FROM persona where nombre= ? ", array ("{$nombre}"));        
     
 }
-function deleteDemo($id) {
-    $deleterow = self::$db->deleteRow("DELETE FROM demo where iddemo= ? ", array ("{$id}"));
-}
+
+  function deleteDemo($id) {
+            $deleterow = self::$db->deleteRow("DELETE FROM profesor where id_profesor = ? ", array ("{$id}"));
+        }
+  function createDemo($usuario){
+        $insertrow = self::$db->insertRow("INSERT INTO public.profesor(id_usuario_fk) VALUES (?)", array($usuario));
+    }
 }
 ?>
