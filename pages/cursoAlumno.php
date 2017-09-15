@@ -5,7 +5,7 @@ class cursoAlumno
     private $idcursoalumno;
     private $idcurso;
     
-     function __construct($idcurso, $idcursoalumno) {
+     function __construct($idcursoalumno, $idcurso) {
        $this->idcurso = $idcurso;
        $this->idcursoalumno = $idcursoalumno;
      }
@@ -17,10 +17,10 @@ class cursoAlumno
        return $this->idcurso;
      } 
      function setIdCursoAlumno($idcursoalumno){
-       $this->detalle = $detalle;
+       $this->idcursoalumno = $idcursoalumno;
      } 
      function getIdCursoAlumno(){
-       return $this->Idcursoalumno;
+       return $this->idcursoalumno;
      } 
 }
 
