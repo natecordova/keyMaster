@@ -95,8 +95,10 @@
                         </div>
                         <div class="panel-footer">
                             <div class="row">
-                                <div class="col col-xs-4">Keymaster
+                                <div class="col col-xs-11">Keymaster
                                 </div>
+				    <div class="col col-xs-1"><a href="vistaAdmin.php">Volver</a>
+                  </div>
                             </div>
                         </div>
                     </div>
