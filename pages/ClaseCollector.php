@@ -34,9 +34,9 @@ function deleteDemo($id) {
 
 }
 
-  function createDemo($id,$profesor){
+  function createDemo($profesor){
   
-    $insertrow = self::$db->insertRow("INSERT INTO public.clase(id_clase, fk_id_profesor) VALUES (?,?)", array ("{$id}","{$profesor}"));             
+    $insertrow = self::$db->insertRow("INSERT INTO public.clase(fk_id_profesor) VALUES (?)", array ("{$profesor}"));             
   
 
 }
