@@ -19,11 +19,10 @@ session_start();
 <?php
 
 $profesor=$_POST["profesor"];
-$id=$_POST["id"];
 echo "Edicion en proceso . . . . </br>";
 include_once("ClaseCollector.php");
 $DemoCollectorObj= new ClaseCollector();
-$DemoCollectorObj->createDemo($id, $profesor);
+$DemoCollectorObj->createDemo($profesor);
 
 
 ?>
