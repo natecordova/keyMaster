@@ -13,8 +13,6 @@ session_start();
 
 <h2>Crear Usuario</h2>
 <form id="contact-form" action="claseGuardar.php" method= "post">
-
-<p>Id Clase: <input type="text" name="id" autofocus required/> </p>
 <p>Id profesor: <input type="text" name="profesor" autofocus required/> </p>
 
 
